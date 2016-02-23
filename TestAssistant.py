@@ -159,7 +159,7 @@ class TestAssistant:
             # print(substitutions)
             # [:1] to exclude first element which is just the original one that was passed
             substitution_combs = list(itertools.product(*substitutions))[1:]
-            print(substitution_combs)
+            # print(substitution_combs)
             for sub in substitution_combs:
                 i = self._find_kw_in_str(" ".join(sub),string)
                 if i!=-1: return i
