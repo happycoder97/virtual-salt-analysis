@@ -11,8 +11,9 @@ Magnesium.
  * Download the zip file.
  * Extract it.
  * Open the extracted folder and type `python .` (That dot at the end is required)
- * If that shows any error, go to the depends folder and type:
-    `sudo pip install fuzzywuzzy python-Levenshtein`.  
+ * If that shows any error, you need to install some dependencies
+    *If you are online*, type `sudo pip install fuzzywuzzy python-Levenshtein`.  
+    *If you are offline*, type `cd depends` and then `sudo pip install *`.  
    This should install the required dependencies and the program should run.
 
 #### If you run into any bugs. Please open an issue
